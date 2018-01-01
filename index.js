@@ -8,7 +8,7 @@ module.exports = function(source, target) {
         request({
             method: msg.method,
             uri: target,
-            headers: msg.headers,
+            // headers: msg.headers,
             qs: msg.query,
             body: msg.body,
             json: true,
